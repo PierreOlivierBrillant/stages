@@ -67,34 +67,22 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "cours/rencontre1.1",
+            docId: "etudiants/etudiant",
             position: "left",
-            label: "Cours",
+            label: "Étudiant",
           },
           {
             type: "docSidebar",
             position: "left",
-            sidebarId: "tp",
-            label: "Travaux Pratiques",
+            sidebarId: "entreprises",
+            label: "Entreprises",
           },
         ],
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "Sources",
-            items: [
-              {
-                label: "GitHub",
-                href: `https://github.com/departement-info-cem/${siteConfig.nomUrl}`,
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()}. ${
-          siteConfig.nom
-        }. CÉGEP Édouard-Montpetit.`,
+        copyright: `Copyright © ${new Date().getFullYear()}. ${siteConfig.nom
+          }. CÉGEP Édouard-Montpetit.`,
       },
       // Décommenter et remplir pour activer l'indexation des pages par le moteur de recherche local
       // algolia: {
